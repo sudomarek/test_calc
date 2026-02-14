@@ -1,2 +1,3 @@
 def calculate_discount(price, percent):
-    return price * (percent / 100)
+    discount = price * (percent / 100)
+    return round(discount, 2)
